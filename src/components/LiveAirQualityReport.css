@@ -1,0 +1,42 @@
+body {
+    background-color: rosybrown;
+}
+.aqiTableWrapper  {
+    text-align: center;
+    margin: 0 100px;
+}
+.aqiTable {
+    table-layout: fixed;
+    border-collapse: collapse;
+    min-height: 500px;
+    background-color: gray;
+}
+tr th, tr td  {
+    min-width: 200px;
+    word-wrap: break-word;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.good {
+    color: green;
+}
+.satisfactory {
+    color: greenyellow;
+}
+
+.moderate {
+    color: yellow;
+}
+
+.poor {
+    color: orange;
+}
+
+.verypoor {
+    color: red;
+}
+
+.severe {
+    color: darkred;
+}
